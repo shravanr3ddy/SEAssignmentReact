@@ -3,7 +3,7 @@ import { Form, Button, Container, Row, Col, InputGroup } from 'react-bootstrap';
 
 const Profile = () => {
     const [name, setName] = useState('Samhitha Uppalapati');
-    const [bio, setBio] = useState('I am Samhitha Uppalapati, a Master's in Computer Science student at SUNY Albany. I finished my under graduation in 2022 from Sreenidhi Institute of Science and Technology, India with a major in Electronics and Computer Engineering. My technical talents include front end development with HTML, CSS, and PHP. I also have strong server-side programming, scripting, and automation skills with Python. I am also conversant with popular cloud computing platforms like Google Cloud, Azure, and Amazon.');
+    const [bio, setBio] = useState("I am Samhitha Uppalapati, a Master's in Computer Science student at SUNY Albany. I finished my under graduation in 2022 from Sreenidhi Institute of Science and Technology, India with a major in Electronics and Computer Engineering. My technical talents include front end development with HTML, CSS, and PHP. I also have strong server-side programming, scripting, and automation skills with Python. I am also conversant with popular cloud computing platforms like Google Cloud, Azure, and Amazon.");
 
     const handleNameChange = (e) => {
         setName(e.target.value);
